@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #23deff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#home{
+
+    height: 100vh;
+    background-color: rgb(219, 221, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursos{
+
+height: 100vh;
+
+
+}
+
+.container{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+
+}
+
+.card{
+
+height: 100vh;
+    background-color: rgb(214, 225, 255); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#sobre{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sobre{
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+.selo{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
